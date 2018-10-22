@@ -1,0 +1,128 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+*/
+
+/******************************************
+/* COLOURS
+/*******************************************/
+
+/* add a list of colours used in the project */
+
+/******************************************
+/* SENSIBLE DEFAULTS
+/*******************************************/
+
+* {
+     box-sizing: border-box;
+}
+img {
+	max-width:100%;
+}
+
+/******************************************
+/* TYPOGRAPHY
+/*******************************************/
+
+/* add type styles here */
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.site-container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.center-horizontal{
+  display: flex;
+  justify-content: center;
+}
+
+.center-vertical{
+  display: flex;
+  align-items: center;
+}
+
+.center-justified{
+  text-align: justify;
+  margin: 0 auto;
+}
+
+
+.box{
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.box-black{
+  border: .3rem solid black;
+}
+
+.box-blue{
+  border: .3rem solid blue;
+}
+
+
+
+/* Landing page */
+
+.landing-page-hero{
+  padding-bottom: 3rem;
+}
+
+.landing-page-hero-body{
+  padding-top: 1rem;
+}
+
+.landing-page-logo{
+  max-width: 480px;
+}
+
+.landing-page-text{
+  max-width: 480px;
+}
+
+.landing-page-menu{
+  max-width: 90%;
+  margin: auto;
+  letter-spacing: .2rem;
+  text-align: center;
+}
+
+/*  */
+
+/******************************************
+/* HELPER CLASSES
+/*******************************************/
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+     content: " ";
+     display: table;
+}
+.clearfix:after {
+     clear:both;
+}
+
+.is-hidden {
+     display: none;
+}
+.is-visible {
+     display: block;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@media all and (max-width: 768px) {
+  .landing-page-logo{
+    max-width: 240px;
+  }
+}
