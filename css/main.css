@@ -75,23 +75,19 @@ img {
   margin: auto;
 }
 
+.container{
+  margin-bottom: 1rem;
+}
+
 .all-page-text{
   max-width: 50%;
   margin: auto;
   text-align: justify;
-  margin-bottom: 1rem;
 }
 
-.sign-up-form{
-    max-width: 50%;
-    margin: auto;
-    margin-bottom: 1rem;
+.footer {
+  padding-bottom: 3rem;
 }
-
-.input{
-  width: 360px;
-}
-
 /* navbar */
 
 .navbar-burger{
@@ -144,6 +140,15 @@ img {
   margin: auto;
   letter-spacing: .2rem;
   text-align: center;
+}
+
+.sign-up-form{
+    max-width: 50%;
+    margin: auto;
+}
+
+.input{
+  width: 360px;
 }
 
 /*  */
