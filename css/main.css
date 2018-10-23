@@ -26,7 +26,7 @@ img {
 /*******************************************/
 
 /* add type styles here */
-
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700');
 
 /******************************************
 /* LAYOUT
@@ -58,6 +58,10 @@ img {
   box-shadow: none;
 }
 
+.box:hover{
+  background-color: lightgrey;
+}
+
 .box-black{
   border: .3rem solid black;
 }
@@ -66,6 +70,27 @@ img {
   border: .3rem solid blue;
 }
 
+.all-page-navbar{
+  max-width: 80%;
+  margin: auto;
+}
+
+.all-page-text{
+  max-width: 50%;
+  margin: auto;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+.sign-up-form{
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.input{
+  width: 360px;
+}
 
 
 /* Landing page */
@@ -87,6 +112,20 @@ img {
 }
 
 .landing-page-menu{
+  max-width: 90%;
+  margin: auto;
+  letter-spacing: .2rem;
+  text-align: center;
+}
+/*  */
+
+/* MANIFESTO */
+
+.manifesto-page-logo{
+  max-width: 240px;
+}
+
+.manifesto-page-hero-footer{
   max-width: 90%;
   margin: auto;
   letter-spacing: .2rem;
@@ -121,8 +160,23 @@ img {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+
 @media all and (max-width: 768px) {
   .landing-page-logo{
     max-width: 240px;
+  }
+
+  .navbar{
+    max-width: 100%;
+  }
+
+  .all-page-text{
+    max-width: 90%;
+  }
+
+  .sign-up-form{
+      max-width: 90%;
+      margin: auto;
+      margin-bottom: 1rem;
   }
 }
