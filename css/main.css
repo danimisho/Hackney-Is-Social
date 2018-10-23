@@ -92,6 +92,20 @@ img {
   width: 360px;
 }
 
+/* navbar */
+
+.navbar-burger{
+  height: 8.25rem;
+  width: 8.25rem;
+}
+
+.navbar-burger span{
+  height:2.2px;
+  width: 21px;
+}
+
+/*  */
+
 
 /* Landing page */
 
@@ -132,6 +146,27 @@ img {
   text-align: center;
 }
 
+/*  */
+
+/* directory */
+
+/*  MODAL */
+
+
+.modal{
+  animation-name:modalopen;
+  animation-duration:1s;
+}
+
+.modal-content{
+  margin: auto;
+  margin-top: 2rem;
+}
+
+@keyframes modalopen{
+  from{ opacity: 0}
+  to {opacity: 1}
+}
 /*  */
 
 /******************************************
