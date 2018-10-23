@@ -70,13 +70,8 @@ img {
   border: .3rem solid blue;
 }
 
-.all-page-navbar{
-  max-width: 80%;
-  margin: auto;
-}
-
 .all-page-text{
-  max-width: 50%;
+  max-width: 60%;
   margin: auto;
   text-align: justify;
   margin-bottom: 1rem;
@@ -86,6 +81,11 @@ img {
   padding-bottom: 2rem;
 }
 /* navbar */
+
+.all-page-navbar{
+  max-width: 80%;
+  margin: auto;
+}
 
 .navbar-burger{
   height: 8.25rem;
@@ -140,7 +140,7 @@ img {
 }
 
 .sign-up-form{
-    max-width: 50%;
+    max-width: 60%;
     margin: auto;
 }
 
