@@ -9,35 +9,19 @@ $(document).ready(function() {
 
   });
 
+  var accordionsMenu = $('.cd-accordion-menu');
+
+	if( accordionsMenu.length > 0 ) {
+
+		accordionsMenu.each(function(){
+			var accordion = $(this);
+			//detect change in the input[type="checkbox"] value
+			accordion.on('change', 'input[type="checkbox"]', function(){
+				var checkbox = $(this);
+				console.log(checkbox.prop('checked'));
+				( checkbox.prop('checked') ) ? checkbox.siblings('ul').attr('style', 'display:none;').slideDown(300) : checkbox.siblings('ul').attr('style', 'display:block;').slideUp(300);
+			});
+		});
+	}
+
 });
-
-// Get modal element
-var modal = document.getElementById('simpleModal-one');
-// Get open modal button
-var modalBtn = document.getElementById('modalBtn-one');
-// Get close button
-var closeBtn = document.getElementsByClassName('closeBtn-one')[0];
-
-// Listen for open click
-modalBtn.addEventListener('click', openModal);
-// Listen for close click
-closeBtn.addEventListener('click', closeModal);
-// Listen for outside click
-window.addEventListener('click', outsideClick);
-
-// Function to open modal
-function openModal(){
-  modal.style.display = 'block';
-};
-
-// Function to close modal
-function closeModal(){
-  modal.style.display = 'none';
-};
-
-// Function to close modal if outside click
-function outsideClick(e){
-  if(e.target == modal){
-    modal.style.display = 'none';
-  };
-};
