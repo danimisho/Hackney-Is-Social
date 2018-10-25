@@ -175,6 +175,7 @@ img {
 /* Accordion Menu */
 
 .message-header{
+  border-radius: 0;
   font-weight: 400;
 }
 
