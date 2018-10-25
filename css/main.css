@@ -325,7 +325,7 @@ img {
   margin-bottom: 1rem;
 }
 
-.accordion-group-heading:hover{
+.accordion-hover:hover{
   background-color: #dbdbdb
 }
 
