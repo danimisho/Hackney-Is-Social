@@ -325,6 +325,10 @@ img {
   margin-bottom: 1rem;
 }
 
+.accordion-group-heading:hover{
+  background-color: #dbdbdb
+}
+
 .accordion-group-heading > li:hover{
   background-color: white;
 }
