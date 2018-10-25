@@ -7,6 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 		<title>Hackney is Social</title>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+		<link rel="stylesheet/less" type="text/css" href="styles.less" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700" rel="stylesheet">
@@ -93,291 +94,86 @@
 					<h3 class="subtitle">The following organisations have pledged to support
 						the development of the social enterprise sector in Hackney in the
 						following ways:</h3>
-					<ul class="cd-accordion-menu animate">
-	   				<li class="has-children accordion-group-heading">
-	  					<input type="checkbox" name ="group-1" id="group-1">
-	  					<label class="box-black accordion-hover" for="group-1">
-	  						<div class="">A. Promote Awareness & Understanding of Social Enterprise in the Borough</div>
-	  					</label>
-							<ul>
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-1" id="sub-group-1">
-									<label for="sub-group-1">Allia will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
+					<ul class="accordion">
+					  <li>
+					    <a class="toggle" href="javascript:void(0);">Item 1</a>
+					    <ul class="inner" style="display: none;">
+					      <li><a class="toggle" href="javascript:void(0);">Item 1</a>
+					    <ul class="inner" style="display: none;">
+					      <li>Option 1</li>
+					      <li>Option 2</li>
+					      <li>Option 3</li>
+					    </ul>
 
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-2" id="sub-group-2">
-									<label for="sub-group-2">CAN will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
+					      </li>
+					      <li>Option 2</li>
+					      <li>Option 3</li>
+					    </ul>
+					  </li>
 
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-3" id="sub-group-3">
-									<label for="sub-group-3">Co-ops UK will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
+					  <li>
+					    <a class="toggle" href="javascript:void(0);">Item 2</a>
+					    <ul class="inner" style="display: none;">
+					      <li>Option 1</li>
+					      <li>Option 2</li>
+					      <li>Option 3</li>
+					    </ul>
+					  </li>
 
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-4" id="sub-group-4">
-									<label for="sub-group-4">Hackney Co-operative Developments will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
+					  <li>
+					    <a class="toggle" href="javascript:void(0);">Item 3</a>
+					    <ul class="inner" style="display: none;">
+					      <li>
+					        <a href="#" class="toggle">Open Inner</a>
+					        <div class="inner">
+					          <p>
+					            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus placerat fringilla. Duis a elit et dolor laoreet volutpat. Aliquam ultrices mauris id mattis imperdiet. Aenean cursus ultrices justo et varius. Suspendisse aliquam orci id dui dapibus
+					            blandit. In hac habitasse platea dictumst. Sed risus velit, pellentesque eu enim ac, ultricies pretium felis.
+					          </p>
+					        </div>
+					      </li>
 
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-5" id="sub-group-5">
-									<label for="sub-group-5">HCVS will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
+					      <li>
+					        <a href="#" class="toggle">Open Inner #2</a>
+					        <div class="inner">
+					          <p>
+					            Children will automatically close upon closing its parent.
+					          </p>
+					        </div>
+					      </li>
 
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-6" id="sub-group-6">
-									<label for="sub-group-6">Locality will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
+					      <li>Option 3</li>
+					    </ul>
+					  </li>
 
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-7" id="sub-group-7">
-									<label for="sub-group-7">London Borough of Hackney will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
+					  <li>
+					    <a class="toggle" href="javascript:void(0);">Item 4</a>
+					    <ul class="inner" style="display: none;">
+					      <li>
+					        <a href="#" class="toggle">Technically any number of nested elements</a>
+					        <ul class="inner" style="display: none;">
+					          <li>
+					            <a href="#" class="toggle">Another nested element</a>
+					            <div class="inner">
+					              <p>
+					                As long as the inner element has inner as one of its classes then it will be toggled.
+					              </p>
+					              <p>
+					                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus placerat fringilla. Duis a elit et dolor laoreet volutpat. Aliquam ultrices mauris id mattis imperdiet. Aenean cursus ultrices justo et varius. Suspendisse aliquam orci id dui dapibus
+					                blandit. In hac habitasse platea dictumst. Sed risus velit, pellentesque eu enim ac, ultricies pretium felis.
+					              </p>
+					            </div>
+					          </li>
+					        </ul>
+					      </li>
 
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-8" id="sub-group-8">
-									<label for="sub-group-8">Renaisi will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
+					      <li>Option 2</li>
 
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-9" id="sub-group-9">
-									<label for="sub-group-9">SEUK will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
+					      <li>Option 3</li>
+					    </ul>
+					  </li>
+					</ul>
 
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-10" id="sub-group-10">
-									<label for="sub-group-10">Urban MBA will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-11" id="sub-group-11">
-									<label for="sub-group-11">UnLtd will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-	  				   </ul>
-	   				</li>
-
-						<li class="has-children accordion-group-heading accordion-group-heading-text">
-	  					<input type="checkbox" name ="group-2" id="group-2">
-	  					<label class="box-black accordion-hover" for="group-2">B. Build Capacity and Reach within the Social Enterprise Sector</label>
-							<ul>
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-1a" id="sub-group-1a">
-									<label for="sub-group-1a">Allia will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-2a" id="sub-group-2a">
-									<label for="sub-group-2a">CAN will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-3a" id="sub-group-3a">
-									<label for="sub-group-3a">Co-ops UK will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-4a" id="sub-group-4a">
-									<label for="sub-group-4a">Hackney Co-operative Developments will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-5a" id="sub-group-5a">
-									<label for="sub-group-5a">HCVS will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-6a" id="sub-group-6a">
-									<label for="sub-group-6a">Locality will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-7a" id="sub-group-7a">
-									<label for="sub-group-7a">London Borough of Hackney will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-8a" id="sub-group-8a">
-									<label for="sub-group-8a">Renaisi will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-9a" id="sub-group-9a">
-									<label for="sub-group-9a">SEUK will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-10a" id="sub-group-10a">
-									<label for="sub-group-10a">Urban MBA will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-11a" id="sub-group-11a">
-									<label for="sub-group-11a">UnLtd will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-	  				   </ul>
-	   				</li>
-
-						<li class="has-children accordion-group-heading accordion-group-heading-text">
-	  					<input type="checkbox" name ="group-3" id="group-3">
-	  					<label class="box-black accordion-hover" for="group-3">C. Provide a Platform of Resources and Support for Social Enterprises</label>
-							<ul>
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-1b" id="sub-group-1b">
-									<label for="sub-group-1b">Allia will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-2b" id="sub-group-2b">
-									<label for="sub-group-2b">CAN will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-3b" id="sub-group-3b">
-									<label for="sub-group-3b">Co-ops UK will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-4b" id="sub-group-4b">
-									<label for="sub-group-4b">Hackney Co-operative Developments will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-5b" id="sub-group-5b">
-									<label for="sub-group-5b">HCVS will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-6b" id="sub-group-6b">
-									<label for="sub-group-6b">Locality will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-7b" id="sub-group-7b">
-									<label for="sub-group-7b">London Borough of Hackney will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-8b" id="sub-group-8b">
-									<label for="sub-group-8b">Renaisi will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-9b" id="sub-group-9b">
-									<label for="sub-group-9b">SEUK will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-10b" id="sub-group-10b">
-									<label for="sub-group-10b">Urban MBA will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-
-								<li class="has-children accordion-subgroup-heading accordion-hover">
-									<input type="checkbox" name ="sub-group-11b" id="sub-group-11b">
-									<label for="sub-group-11b">UnLtd will...</label>
-									<ul>
-	  				      	<li class="accordion-subgroup-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quasi vero itaque, deserunt nostrum corporis asperiores a magni explicabo earum voluptates commodi sint officiis enim distinctio minima molestias, aliquam aspernatur. Facilis sed nihil, possimus cum, quibusdam, soluta, ratione ullam aspernatur voluptas suscipit aperiam neque fugit officia praesentium pariatur quidem deleniti.</li>
-	  				      </ul>
-	  				    </li>
-	  				   </ul>
-	   				</li>
-					</ul> <!-- cd-accordion-menu Copyright 2018 Amber Creative Lab Ltd, CodyHouse.co-->
 				</div>
       </div>
 		</section>
@@ -397,6 +193,7 @@
 
 
 		<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.7.1/less.min.js" ></script>
 		<script src="js/main.js"></script>
 
 		<!-- Designed by Cere Mae Ebanks -->

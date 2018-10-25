@@ -9,19 +9,20 @@ $(document).ready(function() {
 
   });
 
-  var accordionsMenu = $('.cd-accordion-menu');
+  $('.toggle').click(function(e) {
+  	e.preventDefault();
+  
+    var $this = $(this);
 
-	if( accordionsMenu.length > 0 ) {
-
-		accordionsMenu.each(function(){
-			var accordion = $(this);
-			//detect change in the input[type="checkbox"] value
-			accordion.on('change', 'input[type="checkbox"]', function(){
-				var checkbox = $(this);
-				console.log(checkbox.prop('checked'));
-				( checkbox.prop('checked') ) ? checkbox.siblings('ul').attr('style', 'display:none;').slideDown(300) : checkbox.siblings('ul').attr('style', 'display:block;').slideUp(300);
-			});
-		});
-	}
+    if ($this.next().hasClass('show')) {
+        $this.next().removeClass('show');
+        $this.next().slideUp(350);
+    } else {
+        $this.parent().parent().find('li .inner').removeClass('show');
+        $this.parent().parent().find('li .inner').slideUp(350);
+        $this.next().toggleClass('show');
+        $this.next().slideToggle(350);
+    }
+});
 
 });
