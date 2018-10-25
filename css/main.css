@@ -174,7 +174,10 @@ img {
 
 /* Accordion Menu */
 
-
+.toggle{
+  text-decoration: none;
+  color: black;
+}
 
 /******************************************
 /* HELPER CLASSES
