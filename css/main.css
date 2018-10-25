@@ -179,20 +179,26 @@ img {
   font-weight: 400;
 }
 
+.accordion-heading-text:hover{
+  background-color: #242424;
+}
+
 .accordion-heading-text{
   font-size: 1.5rem;
   margin-bottom: .5rem;
 }
 
+.accordion-subheading-text:hover{
+  background-color: #DBDBDB!important;
+}
+
 .accordion-subheading-text{
   font-size: 1.25rem;
-  margin-left: 1rem;
   margin-bottom: .25rem
 }
 
 .accordion-content-text{
-  margin-left: 1rem;
-  padding:1rem;
+  padding:1.5rem;
 }
 
 /******************************************
