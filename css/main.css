@@ -172,6 +172,26 @@ img {
 }
 /*  */
 
+/* Partners logos */
+
+.logos-flexbox{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  list-style: none;
+  margin-left: 0;
+}
+
+.partner-logos-container{
+  flex-basis: 16.66%;
+  text-align: center;
+  font-size: 15px;
+  padding: 1%;
+}
+
+/*  */
+
 /* Accordion Menu */
 
 .message-header{
@@ -200,6 +220,122 @@ img {
 .accordion-content-text{
   padding:1.5rem;
 }
+
+/* Insta feed */
+
+.instagram-feed{
+  width: 90%
+}
+
+:root{
+  --spacing: 1rem;
+  --speed: 1700ms;
+  }
+
+body{
+  margin: 0;
+  padding: var(--spacing);
+  color: var(--color);
+  background: var(--background);
+}
+#app{
+  display: grid;
+  grid-gap: var(--spacing);
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  min-height: calc(100vh - var(--spacing)*2);
+}
+
+.load-more-button{
+  border-radius: 0;
+  grid-column: 1 / -1;
+  align-self: end;
+}
+
+.error{
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+.loading{
+  width: calc(var(--spacing)*3);
+  height: calc(var(--spacing)*3);
+  grid-column: 1 / -1;
+  justify-self: center;
+  align-self: center;
+  background: var(--color);
+  animation: load var(--speed) infinite ease-in-out;
+  transform: rotate(0);
+}
+@keyframes load{
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.textWithBlurredBg{
+  display:inline-block;
+  position:relative;
+  transition:.3s;
+  font-size: 1.2rem;
+}
+
+.textWithBlurredBg img{
+  width:100%;
+  height:100%;
+  transition:.3s;
+}
+
+.textWithBlurredBg:hover img{
+  filter:blur(2px) brightness(50%);
+}
+
+.textWithBlurredBg > :not(img){
+  position:absolute;
+  z-index:1;
+  top:15%;
+  width:100%;
+  text-align:center;
+  color:#fff;
+  opacity:0;
+  transition:.3s;
+}
+
+.textWithBlurredBg:hover :not(img){
+  opacity:1;
+}
+
+.instagram-caption{
+  line-height: 1.2;
+  width: 90%;
+  margin: auto;
+  overflow-wrap: break-word;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+
+.textWithBlurredBg .instagram-likes-symbol{
+  top: 89.5%;
+  right:20%;
+}
+
+.textWithBlurredBg .instagram-likes-number{
+  top: 90%;
+  right:12%;
+}
+
+.textWithBlurredBg .instagram-comments-symbol{
+  top: 89.5%;
+  left:12%;
+}
+
+.textWithBlurredBg .instagram-comments-number{
+  top: 90%;
+  left:20%;
+}
+
+/*  */
 
 /******************************************
 /* HELPER CLASSES
