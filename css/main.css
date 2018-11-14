@@ -112,7 +112,7 @@ img {
 }
 
 .landing-page-logo{
-  max-width: 480px;
+  max-width: 360px;
 }
 
 .landing-page-text{
@@ -130,7 +130,7 @@ img {
 /* MANIFESTO */
 
 .manifesto-page-logo{
-  max-width: 240px;
+  max-width: 120px;
 }
 
 .manifesto-page-hero-footer{
@@ -219,6 +219,12 @@ img {
 
 .accordion-content-text{
   padding:1.5rem;
+}
+
+/* Typeform */
+
+.typeform-widget{
+  margin-top: 10px;
 }
 
 /* Insta feed */
@@ -382,7 +388,7 @@ body{
 
 @media all and (max-width: 768px) {
   .landing-page-logo{
-    max-width: 240px;
+    max-width: 180px;
   }
 
   .navbar{
